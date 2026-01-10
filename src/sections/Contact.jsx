@@ -65,7 +65,7 @@ export const Contact = () => {
                                 </div>
                             </a>
 
-                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 glass p-4 rounded-xl hover:bg-white/5 transition-colors group">
+                            <a href="https://www.linkedin.com/in/danish-khan-742b5434a/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 glass p-4 rounded-xl hover:bg-white/5 transition-colors group">
                                 <div className="p-3 bg-slate-800 rounded-full text-cyan group-hover:scale-110 transition-transform">
                                     <Linkedin size={24} />
                                 </div>
@@ -75,7 +75,7 @@ export const Contact = () => {
                                 </div>
                             </a>
 
-                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 glass p-4 rounded-xl hover:bg-white/5 transition-colors group">
+                            <a href="https://github.com/Danishxyz" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 glass p-4 rounded-xl hover:bg-white/5 transition-colors group">
                                 <div className="p-3 bg-slate-800 rounded-full text-cyan group-hover:scale-110 transition-transform">
                                     <Github size={24} />
                                 </div>
