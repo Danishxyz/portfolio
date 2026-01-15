@@ -6,18 +6,18 @@ const skills = [
     {
         category: "Frontend",
         items: [
-            { name: "HTML5", icon: <Globe size={24} />, level: 90 },
-            { name: "CSS3", icon: <Layout size={24} />, level: 85 },
-            { name: "JavaScript (ES6+)", icon: <Code size={24} />, level: 80 },
-            { name: "Responsive Design", icon: <Layout size={24} />, level: 95 },
+            { name: "HTML5", icon: <Globe size={24} />, level: 70 },
+            { name: "CSS3", icon: <Layout size={24} />, level: 65 },
+            { name: "JavaScript (ES6+)", icon: <Code size={24} />, level: 60 },
+            { name: "Responsive Design", icon: <Layout size={24} />, level: 75 },
         ],
     },
     {
         category: "Learning / Backend",
         items: [
-            { name: "React.js", icon: <Code size={24} />, level: 75 },
-            { name: "Node.js", icon: <Server size={24} />, level: 60 },
-            { name: "MongoDB", icon: <Database size={24} />, level: 65 },
+            { name: "React.js", icon: <Code size={24} />, level: 55 },
+            { name: "Node.js", icon: <Server size={24} />, level: 50 },
+            { name: "MongoDB", icon: <Database size={24} />, level: 55 },
         ],
     },
     {
