@@ -17,7 +17,6 @@ const skills = [
         items: [
             { name: "React.js", icon: <Code size={24} />, level: 75 },
             { name: "Node.js", icon: <Server size={24} />, level: 60 },
-            { name: "Express.js", icon: <Server size={24} />, level: 60 },
             { name: "MongoDB", icon: <Database size={24} />, level: 65 },
         ],
     },

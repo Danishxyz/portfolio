@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Github, ExternalLink, Gift, ShoppingBag, Code } from "lucide-react";
+import { Github, ExternalLink, Gift, ShoppingBag, Code, Watch } from "lucide-react";
+import watchWebsiteImg from "../assets/watch-website.jpg";
 
 export const Projects = () => {
     const projects = [
@@ -13,7 +14,21 @@ export const Projects = () => {
             links: {
                 demo: "#",
                 code: "#"
-            }
+            },
+            Icon: Gift
+        },
+        {
+            title: "Luxury Watch Store",
+            category: "Frontend Development",
+            description: "An elegant web interface for browsing luxury timepieces. Focuses on visual hierarchy, smooth transitions, and a premium aesthetic.",
+            tech: ["React.js", "Tailwind CSS", "Framer Motion", "GSAP"],
+            features: ["Hero Carousel", "Product Showcases", "Brand Filtering", "Responsive Design"],
+            links: {
+                demo: "https://project-1-theta-plum.vercel.app/",
+                code: "https://github.com/Danishxyz/watch-website"
+            },
+            Icon: Watch,
+            image: watchWebsiteImg
         }
     ];
 
@@ -50,23 +65,36 @@ export const Projects = () => {
                                 </div>
 
                                 {/* CSS Mockup */}
-                                <div className="w-full h-64 bg-slate-800 rounded-t-xl border-4 border-slate-700 shadow-2xl transform group-hover:scale-105 transition-transform duration-500 relative overflow-hidden">
-                                    <div className="h-6 bg-slate-700 flex items-center px-4 space-x-2">
-                                        <div className="w-2 h-2 rounded-full bg-red-500"></div>
-                                        <div className="w-2 h-2 rounded-full bg-yellow-500"></div>
-                                        <div className="w-2 h-2 rounded-full bg-green-500"></div>
-                                    </div>
-                                    <div className="p-4 flex flex-col items-center justify-center h-full text-center">
-                                        <Gift size={48} className="text-cyan mb-2" />
-                                        <span className="text-lg font-bold text-white">Gift Shop</span>
-                                        <div className="grid grid-cols-2 gap-2 mt-4 w-full px-8 opacity-50">
-                                            <div className="h-12 bg-slate-700 rounded-md"></div>
-                                            <div className="h-12 bg-slate-700 rounded-md"></div>
-                                            <div className="h-12 bg-slate-700 rounded-md"></div>
-                                            <div className="h-12 bg-slate-700 rounded-md"></div>
+                                {project.image ? (
+                                    <div className="w-full h-64 bg-slate-900 rounded-t-xl border-4 border-slate-700 shadow-2xl transform group-hover:scale-105 transition-transform duration-500 relative overflow-hidden">
+                                        <div className="h-6 bg-slate-700 flex items-center px-4 space-x-2 z-10 relative">
+                                            <div className="w-2 h-2 rounded-full bg-red-500"></div>
+                                            <div className="w-2 h-2 rounded-full bg-yellow-500"></div>
+                                            <div className="w-2 h-2 rounded-full bg-green-500"></div>
+                                        </div>
+                                        <div className="w-full h-full relative">
+                                            <img src={project.image} alt={project.title} className="w-full h-full object-cover object-top pb-6" />
                                         </div>
                                     </div>
-                                </div>
+                                ) : (
+                                    <div className="w-full h-64 bg-slate-800 rounded-t-xl border-4 border-slate-700 shadow-2xl transform group-hover:scale-105 transition-transform duration-500 relative overflow-hidden">
+                                        <div className="h-6 bg-slate-700 flex items-center px-4 space-x-2">
+                                            <div className="w-2 h-2 rounded-full bg-red-500"></div>
+                                            <div className="w-2 h-2 rounded-full bg-yellow-500"></div>
+                                            <div className="w-2 h-2 rounded-full bg-green-500"></div>
+                                        </div>
+                                        <div className="p-4 flex flex-col items-center justify-center h-full text-center">
+                                            <project.Icon size={48} className="text-cyan mb-2" />
+                                            <span className="text-lg font-bold text-white">{project.title}</span>
+                                            <div className="grid grid-cols-2 gap-2 mt-4 w-full px-8 opacity-50">
+                                                <div className="h-12 bg-slate-700 rounded-md"></div>
+                                                <div className="h-12 bg-slate-700 rounded-md"></div>
+                                                <div className="h-12 bg-slate-700 rounded-md"></div>
+                                                <div className="h-12 bg-slate-700 rounded-md"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                )}
                             </div>
 
                             {/* Project Details */}
