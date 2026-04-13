@@ -18,6 +18,7 @@ export const Navbar = () => {
     const navLinks = [
         { name: "About", to: "about" },
         { name: "Skills", to: "skills" },
+        { name: "Certifications", to: "certifications" },
         { name: "Projects", to: "projects" },
         { name: "Education", to: "education" },
         { name: "Contact", to: "contact" },

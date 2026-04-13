@@ -9,22 +9,24 @@ const skills = [
             { name: "HTML5", icon: <Globe size={24} />, level: 90 },
             { name: "CSS3", icon: <Layout size={24} />, level: 85 },
             { name: "JavaScript (ES6+)", icon: <Code size={24} />, level: 80 },
+            { name: "React.js", icon: <Code size={24} />, level: 75 },
             { name: "Responsive Design", icon: <Layout size={24} />, level: 95 },
         ],
     },
     {
         category: "Learning / Backend",
         items: [
-            { name: "React.js", icon: <Code size={24} />, level: 75 },
-            { name: "Node.js", icon: <Server size={24} />, level: 60 },
-            { name: "MongoDB", icon: <Database size={24} />, level: 65 },
+            { name: "Node.js", icon: <Server size={24} />, level: 40 },
+            { name: "MongoDB", icon: <Database size={24} />, level: 70 },
+            { name: "MySQL", icon: <Database size={24} />, level: 55 },
         ],
     },
     {
         category: "Tools",
         items: [
             { name: "Git & GitHub", icon: <GitBranch size={24} />, level: 80 },
-            { name: "VS Code", icon: <Terminal size={24} />, level: 90 },
+            { name: "VS Code", icon: <Terminal size={24} />, level: 100 },
+            { name: "Postman", icon: <Code size={24} />, level: 50 },
         ],
     },
 ];

@@ -8,7 +8,7 @@ export const Education = () => {
             degree: "Master of Computer Applications (MCA)",
             school: "Parul University",
             year: "2024 - 2026",
-            grade: "CGPA: 7.31",
+            grade: "CGPA: 7.36",
             description: "Specializing in Full-Stack Development and Advanced Web Technologies.",
         },
         {

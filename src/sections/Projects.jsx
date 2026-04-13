@@ -2,20 +2,21 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Github, ExternalLink, Gift, ShoppingBag, Code, Watch } from "lucide-react";
 import watchWebsiteImg from "../assets/watch-website.jpg";
-
+import AKM from "../assets/AKM.png";
 export const Projects = () => {
     const projects = [
         {
-            title: "Gift Shop Website",
-            category: "MERN Stack Application",
-            description: "A comprehensive e-commerce platform for gifting items. Features responsive UI, product listing, and a modern layout.",
-            tech: ["React.js", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
-            features: ["Responsive UI", "Product Listing", "Hover Previews", "Cart System"],
+            title: "AKM Perfume Store",
+            category: "E-commerce Website",
+            description: "A perfume store website showcasing product catalogs, filters, and a checkout flow.",
+            tech: ["HTML", "CSS", "JavaScript"],
+            features: ["Product Catalog", "Search & Filters", "Responsive Layout", "Checkout Flow"],
             links: {
                 demo: "#",
                 code: "#"
             },
-            Icon: Gift
+            Icon: Gift,
+            image: AKM
         },
         {
             title: "Luxury Watch Store",

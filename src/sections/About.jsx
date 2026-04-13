@@ -34,16 +34,16 @@ export const About = () => {
                             </div>
                             <div>
                                 <h3 className="text-2xl font-bold text-white">Danish Khan</h3>
-                                <p className="text-cyan">Frontend Developer</p>
+                                <p className="text-cyan">Frontend Web Developer</p>
                             </div>
                             <div className="grid grid-cols-2 gap-4 w-full">
                                 <div className="p-4 bg-slate-800/50 rounded-lg text-center">
                                     <span className="block text-2xl font-bold text-white">MCA</span>
-                                    <span className="text-xs text-gray-400">Student</span>
+                                    <span className="text-xs text-gray-400">2024–2026</span>
                                 </div>
                                 <div className="p-4 bg-slate-800/50 rounded-lg text-center">
-                                    <span className="block text-2xl font-bold text-white">2</span>
-                                    <span className="text-xs text-gray-400">Years Education</span>
+                                    <span className="block text-2xl font-bold text-white">BCA</span>
+                                    <span className="text-xs text-gray-400">2020–2023</span>
                                 </div>
                             </div>
                         </div>
@@ -58,17 +58,18 @@ export const About = () => {
                         className="space-y-6 text-gray-300 text-lg leading-relaxed"
                     >
                         <p>
-                            I am currently pursuing my <span className="text-white font-semibold">Master of Computer Applications (MCA)</span> at
-                            <span className="text-cyan"> Parul University</span>. I completed my BCA from Dolat Usha Institute (2020–2023).
+                            I have completed my <span className="text-white font-semibold">Master of Computer Applications (MCA)</span> from
+                            <span className="text-cyan"> Parul University (2024–2026)</span> and hold a <span className="text-white font-semibold">Bachelor of Computer Applications (BCA)</span> from 
+                            <span className="text-cyan"> Dolat Usha Institute (2020–2023)</span>.
                         </p>
                         <p>
-                            My passion lies in creating clean, responsive, and aesthetically pleasing User Interfaces.
-                            I am deeply invested in mastering modern web technologies and have a strong foundation in
-                            frontend development.
+                            I am a <span className="text-cyan font-semibold">Frontend Web Developer</span> passionate about building clean, responsive, and user-friendly web interfaces. 
+                            I have hands-on experience with modern web technologies, including the <span className="text-cyan font-semibold">MERN stack</span>, and continuously 
+                            work on improving my skills to develop scalable and efficient applications.
                         </p>
                         <p>
-                            My ultimate career goal is to become a proficient <span className="text-cyan font-semibold">Full-Stack Web Developer</span>,
-                            building scalable and high-performance applications that solve real-world problems.
+                            My career goal is to become a proficient <span className="text-cyan font-semibold">Full Stack Web Developer</span>,
+                            capable of designing and delivering high-performance solutions that solve real-world problems from frontend to backend.
                         </p>
 
                         <div className="flex gap-4 pt-4">
