@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Award, Download, ExternalLink } from "lucide-react";
+import { Award, Download } from "lucide-react";
 
 export const Certifications = () => {
     const certifications = [
