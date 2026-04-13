@@ -74,11 +74,12 @@ export const Hero = () => {
                             <Code size={20} /> View Projects
                         </Link>
                         <a
-                            href="/resume.pdf"
-                            download="Danish_Khan_Resume.pdf"
+                            href="/Danish_resume.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="px-8 py-3 rounded-full border border-cyan/30 text-cyan hover:bg-cyan/10 transition-all transform hover:scale-105 cursor-pointer flex items-center gap-2"
                         >
-                            <FileText size={20} /> Download Resume
+                            <FileText size={20} /> View Resume
                         </a>
                     </div>
                 </motion.div>
