@@ -34,7 +34,7 @@ export const About = () => {
                             </div>
                             <div>
                                 <h3 className="text-2xl font-bold text-white">Danish Khan</h3>
-                                <p className="text-cyan">Frontend Web Developer</p>
+                                <p className="text-cyan">Aspiring Frontend Web Developer</p>
                             </div>
                             <div className="grid grid-cols-2 gap-4 w-full">
                                 <div className="p-4 bg-slate-800/50 rounded-lg text-center">
@@ -68,8 +68,8 @@ export const About = () => {
                             work on improving my skills to develop scalable and efficient applications.
                         </p>
                         <p>
-                            My career goal is to become a proficient <span className="text-cyan font-semibold">Full Stack Web Developer</span>,
-                            capable of designing and delivering high-performance solutions that solve real-world problems from frontend to backend.
+                            My career goal is to become a proficient <span className="text-cyan font-semibold">Frontend Web Developer</span>,
+                            capable of designing and developing responsive, user-friendly, and high-performance web applications that provide excellent user experiences and solve real-world problems.
                         </p>
 
                         <div className="flex gap-4 pt-4">

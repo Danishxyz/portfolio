@@ -18,6 +18,20 @@ export const Education = () => {
             grade: "CGPA: 6.91",
             description: "Graduated with a strong foundation in Computer Science principles and programming.",
         },
+        {
+            degree: "12th Standard",
+            school: "St Joseph E.T. High School, Valsad",
+            year: "2020",
+            grade: "Percentage: 49.84 / 100",
+            description: "Completed Higher Secondary School Certificate under G.S.E.B.",
+        },
+        {
+            degree: "10th Standard",
+            school: "St Joseph E.T. High School, Valsad",
+            year: "2018",
+            grade: "Percentage: 64.16 / 100",
+            description: "Completed Secondary School Certificate under G.S.E.B.",
+        },
     ];
 
     return (

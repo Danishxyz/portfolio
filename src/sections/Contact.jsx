@@ -50,7 +50,7 @@ export const Contact = () => {
                     >
                         <h3 className="text-2xl font-bold text-white">Let's Talk</h3>
                         <p className="text-gray-400 text-lg">
-                            I'm open to <span className="text-cyan">Front-End Developer</span> or <span className="text-cyan">Full-Stack</span> roles.
+                            I'm open to <span className="text-cyan">Front-End Developer</span> role.
                             Whether you have a question or just want to say hi, I'll try my best to get back to you!
                         </p>
 

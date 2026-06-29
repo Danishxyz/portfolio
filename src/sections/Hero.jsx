@@ -5,7 +5,7 @@ import { ChevronDown, FileText, Code } from "lucide-react";
 
 export const Hero = () => {
     const [text, setText] = useState("");
-    const fullText = "Front-End Developer | Aspiring Full-Stack Web Developer";
+    const fullText = "Aspiring Frontend Developer";
     const [index, setIndex] = useState(0);
 
     useEffect(() => {
@@ -59,8 +59,8 @@ export const Hero = () => {
                     </div>
 
                     <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-                        Front-end web developer skilled in <span className="text-white font-medium">HTML, CSS, and JavaScript</span>,
-                        currently learning <span className="text-white font-medium">React, Node.js, and MongoDB</span> to become a full-stack developer.
+                        Frontend Developer skilled in <span className="text-white font-medium">HTML, CSS, and JavaScript</span>,
+                        with a passion for creating <span className="text-white font-medium">responsive and interactive user interfaces</span>.
                     </p>
 
                     <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
@@ -74,7 +74,7 @@ export const Hero = () => {
                             <Code size={20} /> View Projects
                         </Link>
                         <a
-                            href="/Danish_resume.pdf"
+                            href="/frontend resume.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="px-8 py-3 rounded-full border border-cyan/30 text-cyan hover:bg-cyan/10 transition-all transform hover:scale-105 cursor-pointer flex items-center gap-2"
