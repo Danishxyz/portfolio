@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { User, Server, Layout } from "lucide-react";
+import profileImg from "../assets/profile.png";
 
 export const About = () => {
     return (
@@ -30,7 +31,11 @@ export const About = () => {
 
                         <div className="relative z-10 flex flex-col items-center text-center space-y-6">
                             <div className="w-32 h-32 rounded-full bg-slate-800 border-4 border-cyan/30 flex items-center justify-center mb-4 overflow-hidden shadow-2xl shadow-cyan/10">
-                                <User size={64} className="text-gray-400" />
+                                <img
+                                    src={profileImg}
+                                    alt="Profile"
+                                    className="w-full h-full object-cover"
+                                />
                             </div>
                             <div>
                                 <h3 className="text-2xl font-bold text-white">Danish Khan</h3>
