@@ -12,8 +12,8 @@ export const Projects = () => {
             tech: ["HTML", "CSS", "JavaScript"],
             features: ["Product Catalog", "Search & Filters", "Responsive Layout", "Checkout Flow"],
             links: {
-                demo: "#",
-                code: "#"
+                demo: "https://perfume-store-kappa-drab.vercel.app/",
+                code: "https://github.com/Danishxyz/Perfume-Store"
             },
             Icon: Gift,
             image: AKM
